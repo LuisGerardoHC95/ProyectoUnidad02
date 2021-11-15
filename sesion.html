@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="index" />
+    <meta name="keywords" content="Practica 07, tecnm" />
+    <meta name="author" content="Luis Gerardo HC, L18730200@pinotepa.tecnm.mx" />
+    <title>INICIAR SESION</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+    <link rel="stylesheet" href="css/acceso1.css" type="text/css" />
+</head>
+
+
+<body>
+
+    <div class="cod-container">
+        <form action="#" class="cod-form">
+            <div class="form-title">
+                <img src="images/registrate.png" alt="" width="400" height="100">
+                <h3>Regístrate!</h3>
+            </div>
+            <div class="input-group">
+                <label class="label" for="nombre">Mi nombre es:</label>
+                <input type="text" class="form-input" id="nombre" name="nombre">
+            </div>
+            <div class="input-group">
+                <label class="label" for="email">Mi email es:</label>
+                <input input type="email" class="form-input" id="email" name="email">
+            </div> 
+            <div class="input-group">
+                <label class="label" for="recuerdame">Recuérdame en este equipo</label>
+                <input type="checkbox" value="true" id="recuerdame">
+            </div> 
+            <div class="input-group">
+                <label class="label" for="url">Mi dirección web es:</label>
+                <input type="url" class="form-input" id="url" name="url">
+            </div> 
+            <div class="input-group">
+                <label class="label" for="password">Me gustaría que mi password fuera:</label><br/>
+                <span>(al menos 6 caracteres, sin espacios)</span>
+                <input type="password" class="form-input" id="password" name="password">
+            </div>
+            <div class="input-group"> 
+                <label class="label" for="conocimientos">En una escala de 1 a 10, mis conocimientosde HTML5 son:</label>
+                <input  type="number" class="form-input" name="cantidad" id="cantidad" value="1" min="1" max="10">
+            </div>
+            <div class="input-group">
+                <label class="label" for="fechaInicio">Por favor, inicia mi suscripción eldía:</label>
+                <input type="date" class="form-input" id="fechaInicio" name="fechaInicio">
+            </div>
+            <div class="input-group">
+                <label class="label" for="cantidad">Me gustaría recibir <input  type="number"
+                    name="cantidad" class="form-input" id="cantidad" value="1" min="0" max="150"> copias de <cite>El manual de HTML5</cite>.</label>
+            </div>
+            <div class="input-group">
+                <label class="label" for="tambienCSS3">También regístrame para <cite>El manual de CSS3</cite></label>
+                <input id="tambienCSS3" class="form-input" name="tambienCSS3" type="checkbox">
+            </div>
+            
+            <div class="input-group">
+                <input type="submit" class="form-input" value="Envíame">
+                <p>¿No tienes cuenta? <a href="#" class="alt-form">Ingresa Aquí</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+body{
+  background: linear-gradient(to right, #659999, #f4791f);
+}
+
+.container {
+  width: 1350px;
+  height: 100px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: "Arial", Georgia, Serif;
+  font-size: 15px;
+}
+header {
+  text-align:center;
+  border: 1px solid #000;
+  background: linear-gradient(to right, #659999, #f4791f);
+  height: 70px;
+  font-size: 30px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+section,aside {
+  padding: 1px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -o-border-radius:3px;
+  border-radius:3px;
+}
+
+
+
+section{
+  width: 1048px;
+  height: 400px;
+  margin: 0 auto 0 auto;
+  background: linear-gradient(to right, #659999, #f4791f);
+  float: left;
+  border: 1px solid #FFF300;
+}
+
+
+aside{
+  width: 290px;
+  height: 400px;
+  margin: 0 auto 0 auto;
+  background: linear-gradient(to right, #659999, #f4791f);
+  float: left;
+  border: 1px solid #FFF300;
+}
+
+
+
+footer {
+  position: fixed;
+  Width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0px 10px 0px;
+  background-color: #022b42;
+  text-align: center;
+}
+
+
+footer a {
+  color: #fff;
+}
+
+#titulo{
+  width: 1360px;
+  height: 100px;
+  margin: 0 auto 0 auto;
+  background-color:#03A3FF;
+  float: center;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+ 
+#part1{
+  width: 1343px;
+  height: 300px;
+  margin: 0 auto 0 auto;
+  background: linear-gradient(to right, #659999, #f4791f);
+  float: left;
+  border: 1px solid #000;
+}
+
+#part2{
+  width: 670px;
+  height: 300px;
+  margin: 0 auto 0 auto;
+  background-color:#03A3FF;
+  float: left;
+  border: 1px solid #000;
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+h1{
+  color: #A7BFE8;
+  text-align: center;
+}
+
+/* pantalla maximo 980px */
+@media screen and (max-width:980px) {
+  .container {
+    width:98%;
+  }
+  section {
+    width:68%;
+  }
+
+}
+
+
+
+ 
+/* pantalla maximo 700px */
+@media screen and (max-width:700px) {
+  aside,section {
+    float:none;
+    width:96%;
+    font-size:1.2em;
+  }
+  nav, section {
+    font-size:1.2em;
+  }
+  aside {
+    margin-top:5px;
+    background:#333;
+    color: #fff;
+  }
+  nav ul {
+    float:none;
+    clear:both;
+  }
+}
+ 
+/* pantalla maximo 480px */
+@media screen and (max-width:480px) {
+  aside {
+    display:block;
+    background:#333;
+    color: #fff;
+    font-size:1.5em;
+  }
+  nav, section {
+    font-size:1.5em;
+  }
+  section {
+    width:94%;
+  }
+  nav ul {
+    display: table;
+    text-align: center;
+    float: none;
+    width:100%;
+  }
+  nav ul li {
+    float:none;
+  }
+
+
+ 
+}
